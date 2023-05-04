@@ -18,23 +18,23 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['title' => 'Home']);
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about', ['title' => 'About']);
 });
 Route::get('/services', function () {
-    return view('services');
+    return view('services', ['title' => 'Services']);
 });
 Route::get('/help', function () {
-    return view('help');
+    return view('help', ['title' => 'Help']);
 });
 Route::get('/contacts', function () {
-    return view('contacts');
+    return view('contacts', ['title' => 'Contacts']);
 });
 Route::get('/blog', function () {
-    return view('blog.home');
+    return view('blog.home', ['title' => 'Blog']);
 });
 Route::get('/donate', function () {
-    return view('donate');
+    return view('donate', ['title' => 'Donate']);
 });

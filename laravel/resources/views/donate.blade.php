@@ -2,7 +2,7 @@
     <section class="landing-block first">
         <div class="container">
             <div class="col-1">
-                <h1>Help</h1>
+                <h1>Donate</h1>
 
                 <p>
                     Far far away, behind the word mountains, far from the countries
